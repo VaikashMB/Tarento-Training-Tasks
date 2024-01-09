@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+nav {
+  padding: 16px 32px;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: black;
+}
+nav a.active {
+  font-weight: bold;
+  
+}
+
+.imgHome {
+  width: 100%;
+  height: 100vh;
+}
+.bodyContainer {
+  background-image: url("https://wallpapercave.com/wp/wp3103568.jpg");
+  margin-top: 60px;
+  width: 100%;
+  height: 908px;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
+
+}
+.h1Body {
+  font-size: 80px;
+}
+.h3Body{
+  font-size: 50px;
+  margin-left: 250px;
+}
+.button{
+  background-color: transparent;
+  width: 200px;
+  height: 60px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.button:hover {
+  background-color: lightgrey;
+}
+.loginform {
+  padding: 100px;
+}
+.inputlogin {
+  width: 400px;
+}
+.box {
+  background-image: url("https://plus.unsplash.com/premium_photo-1676393904171-738ff11eceaa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 1200px;
+  height: 800px;
+  background-size: cover;
+  margin-left: 320px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 80px;
+  color: white;
+}
+.heading {
+  margin-left: 320px;
+}
+
+.col-4 {
+  margin-bottom: 20px;
+}
+
+.aboutus {
+  background-image: url("https://images.unsplash.com/photo-1587226513115-f1e3439f1a35?q=80&w=2092&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 900px;
+  background-size: cover;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 450px;
+  text-align: center;
+  padding: 80px;
+  color: white;
+}
+.row-one {
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.logo {
+  width: 100px;
+  height: 60px;
+}
+.profilebox {
+  width: 100%;
+  height: 918px;
+  margin-top: 50px;
+  background-image: url("https://wallpapercave.com/wp/wp3103584.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+.listdecor {
+  list-style: none;
+}
+.title {
+  color: black;
+}
+.contact {
+  padding: 130px;
+  margin-top: 70px;
+}
+#welcome{
+  color: black;
+  margin-left: 300px;
+}
+.hidden {
+  display: none;
+}
