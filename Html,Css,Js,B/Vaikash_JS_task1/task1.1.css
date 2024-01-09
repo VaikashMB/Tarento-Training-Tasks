@@ -1,0 +1,19 @@
+button {
+    width: 150px;
+    height: 80px;
+    background-color: darkblue;
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background-color: slateblue;
+}
+.container {
+    display: flex;
+    margin-left: 700px;
+    margin-top: 400px;
+    gap: 10px;
+    
+}

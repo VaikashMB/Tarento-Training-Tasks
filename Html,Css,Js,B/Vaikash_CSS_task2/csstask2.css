@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #333;
+    justify-content: center;
+
+}
+.box1 {
+    background-color: yellow;
+    grid-column: span 4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2 {
+    background-color: blue;
+    grid-column: span 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.box3 {
+    background-color: yellow;
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box4 {
+    background-color: blue;
+    grid-column: span 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.box5 {
+    background-color: yellow;
+    grid-row: span 2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box6 {
+    background-color: blue;
+    grid-column: span 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.box7 {
+    background-color: yellow;
+    grid-column:span 3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

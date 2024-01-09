@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: rgb(15, 15, 126);
+    height: 250px;
+}
+.title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.two {
+    height: 250px;
+}
+.marvel {
+    color: rgb(6, 241, 241);
+    margin-top: 30px;
+}
+h2 , .lorem {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+img {
+    height: 450px;
+    width: 100%;
+    padding: 10px;
+}
+.footer {
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.foot {
+    text-align: center;
+    padding: 70px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.div1 {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    padding-top: 50px;
+}
+.div2 {
+    padding-left: 400px;
+    width: 33%;
+    padding-top: 50px;
+}
+.div3 {
+    padding-left: 300px;
+    width: 33%;
+}
+.contact {
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.email {
+    padding-top: 30px;
+}
+.copy {
+    font-size: small;
+    color: gray;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+.mar {
+    padding-top: 0px;
+}
+.logo {
+    width: 90px;
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+    
+}
+.connect {
+    font-weight: 600;
+}
+.copyyy {
+    background-color: black;
+}

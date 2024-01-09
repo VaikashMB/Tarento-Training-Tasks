@@ -1,0 +1,17 @@
+body {
+    /* Light mode styles */
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark-mode {
+    /* Dark mode styles */
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+
+  .darkModal{
+    background-color: black;
+    color: white;
+  }

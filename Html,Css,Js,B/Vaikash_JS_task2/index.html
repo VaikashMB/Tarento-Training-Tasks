@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tales of Adam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="storyName">TALES OF ADAM</h1>
+    <div id="beginning">
+    <p class="beginningText">Click the button to start your adventure</p>
+    <button class="startBtn" id="start">Start</button>
+    </div>
+    <div id="story"></div>
+    <div id="afterStart" class="hidden">
+        <p class="afterStartText">Enter the below details to continue:</p>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name">
+        <label for="house">House</label>
+        <input type="text" id="house" placeholder="House">
+        <br>
+        <button id="submit">Submit</button>
+    </div>
+    <div id="next" class="hidden">
+        <button id="next">NEXT</button>
+    </div>
+    <div id="afterNext" class="hidden">
+        <button id="happyButton">HAPPY</button>
+        <button id="sadButton">SAD</button>
+    </div>
+    <div id="happy" class="hidden">
+        <h1>Adam is in a Happy Mood!!!</h1>
+        <p>When Adam is happy, he loves to do a bunch of things like travelling, watching a movie, and playing cricket with friends.Choose what Adam will do on a Happy Day.</p>
+        <button id="travelButton">Travel</button>
+        <button id="movieButton">Movie</button>
+    </div>
+
+    <div id="sad" class="hidden">
+        <h1>Adam is in a sad mood...</h1>
+        <p>When Adam is in a sad mood, he basically spend time alone, sleep and he eat a lot which makes him a little better.Help Adam what to do when he is sad.</p>
+        <button id="aloneButton">Sit Alone</button>
+        <button id="foodButton">Food</button>
+    </div>
+
+    <div id="travel" class="hidden">
+        <p>Adam is excited and all set for a journey. <br>Where do you want him to take a visit?</p>
+        <label for="place">Location</label>
+        <input type="text" id="place" placeholder="Enter location">
+        <br>
+        <button id="okayButton">OK</button>
+        
+    </div>
+    <div id="travelFinal"></div>
+
+    <div id="movie" class="hidden">
+        <p>Adam is thrilled and super excited to watch a movie on this happy day. <br>Which latest movie would you prefer for him?</p>
+        <label for="film">Movie Name</label>
+        <input type="text" id="film" placeholder="Enter movie name">
+        <button id="okButton">OK</button>
+    </div>
+    <div id="movieFinal"></div>
+    <div id="alone" class="hidden">
+        <h2>Adam is feeling very depressed.So let him sit alone for sometime.We will see later.Bye!</h2>
+    </div>
+    <div id="food" class="hidden">
+        <h2>Eating will make Adam much better. So let him have his food.We will catch up later.Bye and Thankyou!</h2>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

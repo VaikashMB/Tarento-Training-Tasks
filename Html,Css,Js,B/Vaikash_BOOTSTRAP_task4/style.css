@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: center;
+    font-size: 100px;
+}
+
+.row {
+    padding-left: 10%; 
+    margin-left: 150px;
+}
+
+img {
+    height: 286px;
+}
+.text-center {
+    background-color: gray;
+    color: black;
+}
+
+.card {
+    margin-bottom: 25px;
+}
+h4 {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+.heading {
+    margin-top: 75px;
+}

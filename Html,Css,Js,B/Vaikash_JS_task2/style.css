@@ -1,0 +1,173 @@
+.hidden {
+    display: none;
+}
+#beginning{
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    
+}
+.storyName{
+    margin-left: 670px;
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+}
+.beginningText {
+    padding: 120px 0 0 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.startBtn{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0 0 400px;
+}
+#afterStart{
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+
+}
+.afterStartText{
+    padding: 120px 0 0 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+#name{
+    height: 25px;
+  width: 250px;
+  border-radius: 7px;
+
+}
+#house{
+    height: 25px;
+  width: 250px;
+  border-radius: 7px;
+
+}
+#submit{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0 0 400px;
+}
+label {
+    padding-left: 80px;
+}
+#story{
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 200px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#next {
+    height: 40px;
+    width: 150px;
+    margin: 20px 0 0 425px;
+}
+
+#happyButton , #sadButton{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(89, 146, 89);
+    color:white;
+    font-size: 20px;
+    box-shadow: 1px 1px black;
+
+}
+#happyButton , #sadButton:hover{
+    cursor: pointer;
+}
+#afterNext {
+    margin-left: 735px;
+}
+
+#happy {
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    
+}
+#sad {
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    
+}
+#travelButton,#movieButton,#aloneButton,#foodButton{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0 0 400px;
+    margin-right: 400px;
+}
+#travel, #movie {
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+#place,#film{
+    height: 25px;
+  width: 250px;
+  border-radius: 7px;
+}
+#okButton , #okayButton{
+    height: 40px;
+    width: 150px;
+    margin: 70px 0 0 400px;
+    margin-right: 400px;
+    
+}
+#travel>p , #movie>p{
+    font-size: 25px;
+}
+#travelFinal , #movieFinal{
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: 30px;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    
+}
+#alone,#food {
+    background: linear-gradient(#0F3443,#34E89E);
+    height: 300px;
+    width: 1000px;
+    font-size: larger;
+    margin-left: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px;
+}
